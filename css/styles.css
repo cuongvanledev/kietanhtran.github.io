@@ -6,7 +6,5 @@ img{
 .myName{
   float: right;
   width: 80%;
-  border: 3px solid blue;
-  padding: 10px;
-
+  border: 3px solid red;
 }
