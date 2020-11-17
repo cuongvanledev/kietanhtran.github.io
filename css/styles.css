@@ -1,4 +1,6 @@
-img{
-  border-radius: 50%;
+imageUser{
+  display: block;
+  margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
