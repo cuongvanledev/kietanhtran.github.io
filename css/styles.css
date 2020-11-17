@@ -1,13 +1,10 @@
 img{
   width: 5%;
   height: 5%;
-  text-align: left;
   float: left;
 }
 .myName{
-  text-align: center;
   float: right;
-  margin: auto;
   width: 80%;
   border: 3px solid blue;
   padding: 10px;
