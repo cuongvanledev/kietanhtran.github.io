@@ -1,16 +1,7 @@
-.w3-wide {
-  text-align: center;
-  width: auto;
-  border: 3px solid green;
-  padding: 10px;
-  box-sizing: border-box;
-  outline: none;
-  text-transform: none;
-  text-decoration: none;
+.imageKiet {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
-.w3-opacity {
-  text-align: center;
-  width: auto;
-  border: 3px solid blue;
-  padding: 10px;
-}    
