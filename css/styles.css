@@ -8,13 +8,12 @@
 .myname{
   display: inline;
   padding-left: 50px;
-  color: yellowgreen;
+  color: blue;
 }
 body{
   display: inline-block;
   background-image: url("/img/pic2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  width: fit-content;
-  height: fit-content;
+  background-size: auto;
 }
