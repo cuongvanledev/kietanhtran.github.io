@@ -8,6 +8,7 @@
 .myname{
   display: inline;
   padding-left: 500px;
+  margin-left: 100px;
   color: green;
 }
 /*body{
