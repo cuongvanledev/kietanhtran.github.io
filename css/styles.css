@@ -7,9 +7,9 @@
 }
 .myname{
   display: inline;
-  padding-left: 30px;
-  color: red;
+  padding-left: 100px;
+  color: blue;
 }
-.body{
+body{
   background-image: url("/img/pic2.jpg");
 }
