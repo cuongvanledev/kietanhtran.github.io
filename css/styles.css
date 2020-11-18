@@ -7,5 +7,6 @@
 }
 .myname{
   display: inline;
-  
+  float: left;
+  color: aqua;
 }
