@@ -2,9 +2,10 @@ img{
   width: 5%;
   height: 5%;
   float: left;
+  border-radius: 50%;
 }
 .myName{
   float: right;
-  width: 80%;
-  border: 3px solid red;
+  width: 100%;
+  border: 1px solid red;
 }
