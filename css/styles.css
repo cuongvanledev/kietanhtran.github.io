@@ -2,17 +2,11 @@
   border-radius: 50%;
   width: 5%;
   height: 5%;
-  float: left;
-}
-.userImage{
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%;
-  height: 100%;
-  width: auto;
+  float: left; 
 }
 .myName{
   float: right;
   width: 100%;
   border: 1px solid blue;
+  padding-left: 60px;
 }
