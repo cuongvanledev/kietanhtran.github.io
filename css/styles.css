@@ -2,5 +2,10 @@
   border-radius: 50%;
   width: 5%;
   height: 5%;
-  float: left; 
+  float: left;
+  display: inline; 
+}
+.myname{
+  display: inline;
+  float: right;
 }
