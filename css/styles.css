@@ -11,10 +11,10 @@
   margin-left: 100px;
   color: green;
 }
-/*body{
+body{
   display: inline-block;
   background-image: url("/img/pic2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto;
-}*/
+  background-size: cover;
+}
