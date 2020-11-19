@@ -14,49 +14,42 @@
 //  x[myIndex-1].style.display = "block";
 //  setTimeout(carousel, 2000);
 //}
-var words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'],
-    part,
-    i = 0,
-    offset = 0,
-    len = words.length,
-    forwards = true,
-    skip_count = 0,
-    skip_delay = 15,
-    speed = 70;
-var wordflick = function () {
-  setInterval(function () {
-    if (forwards) {
-      if (offset >= words[i].length) {
-        ++skip_count;
-        if (skip_count == skip_delay) {
-          forwards = false;
-          skip_count = 0;
-        }
-      }
-    }
-    else {
-      if (offset == 0) {
-        forwards = true;
-        i++;
-        offset = 0;
-        if (i >= len) {
-          i = 0;
-        }
-      }
-    }
-    part = words[i].substr(0, offset);
-    if (skip_count == 0) {
-      if (forwards) {
-        offset++;
-      }
-      else {
-        offset--;
-      }
-    }
-    $('.word').text(part);
-  },speed);
+const words = ["CSS3.", "HTML5.", "javascript."];
+let i = 0;
+let timer;
+
+function typingEffect() {
+	let word = words[i].split("");
+	var loopTyping = function() {
+		if (word.length > 0) {
+			document.getElementById('word').innerHTML += word.shift();
+		} else {
+			deletingEffect();
+			return false;
+		};
+		timer = setTimeout(loopTyping, 250);
+	};
+	loopTyping();
 };
 
-$(document).ready(function () {
-  wordflick();
-});
+function deletingEffect() {
+	let word = words[i].split("");
+	var loopDeleting = function() {
+		if (word.length > 0) {
+			word.pop();
+			document.getElementById('word').innerHTML = word.join("");
+		} else {
+			if (words.length > (i + 1)) {
+				i++;
+			} else {
+				i = 0;
+			};
+			typingEffect();
+			return false;
+		};
+		timer = setTimeout(loopDeleting, 100);
+	};
+	loopDeleting();
+};
+
+typingEffect();
