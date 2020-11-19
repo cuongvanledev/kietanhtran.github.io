@@ -8,7 +8,7 @@
 .myname{
   display: inline;
   padding-left: 500px;
-  margin-left: 100px;
+  margin-left: 200px;
   color: green;
 }
 body{
@@ -16,5 +16,5 @@ body{
   background-image: url("/img/pic2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain; 
 }
