@@ -37,6 +37,14 @@ body {
   }
 }
 
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+
 .header__secondary {
   font-weight: 600;
   max-width: 67.5rem;
@@ -102,7 +110,8 @@ h4 {
 
 img {
   padding-top: 1rem;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 @media only screen and (min-width: 68em) {
