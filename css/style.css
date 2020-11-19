@@ -13,6 +13,11 @@ body {
   /* color: hsl(229, 6%, 66%); */
   background-color: mintcream; 
 }
+
+.userImage{
+  float: left;
+}
+
 .waviy {
   text-align: center;
   margin: auto;

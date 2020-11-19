@@ -14,7 +14,7 @@
 //  x[myIndex-1].style.display = "block";
 //  setTimeout(carousel, 2000);
 //}
-const words = ["Hi, My name is Kiet.", "Welcome to my site.", "Nice to meet you!"];
+const words = ["Hi, I am Tran Anh Kiet.", "Welcome to my site.", "Nice to meet you!"];
 let i = 0;
 let timer;
 
