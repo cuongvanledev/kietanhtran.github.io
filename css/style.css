@@ -48,6 +48,7 @@ body {
 }
 
 .header__details {
+  padding-top: 20px;
   font-weight: 400;
   max-width: 67.5rem;
   text-align: center;
