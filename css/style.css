@@ -16,21 +16,24 @@ body {
   
 }
 
-.header {
+.header__primary {
+  font-weight: 200;  
   max-width: 67.5rem;
   text-align: center;
   margin: 2rem auto;
 }
 
-.header__primary {
-  font-weight: 200;
-}
-
 .header__secondary {
   font-weight: 600;
+  max-width: 67.5rem;
+  text-align: center;
+  margin: 2rem auto;
 }
 .header__details {
   font-weight: 400;
+  max-width: 67.5rem;
+  text-align: center;
+  margin: 2rem auto;
 }
 
 
@@ -104,3 +107,4 @@ img {
       order: 3;
   }
 }
+
