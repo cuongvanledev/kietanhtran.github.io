@@ -17,8 +17,8 @@ body {
 .userImage{
   float: left;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   display: inline;
 }
 
