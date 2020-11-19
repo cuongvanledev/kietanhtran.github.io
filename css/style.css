@@ -40,15 +40,11 @@ body {
 .header-sub-title {
   text-align: center;
   margin: auto;
-}
-
-
-.header__secondary {
+  padding-top: 30px;
   font-weight: 600;
   max-width: 67.5rem;
-  text-align: center;
-  margin: 2rem auto;
 }
+
 .header__details {
   font-weight: 400;
   max-width: 67.5rem;
