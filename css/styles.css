@@ -9,10 +9,9 @@
   display: inline;
   padding-left: 500px;
   margin-left: 200px;
-  color: blue;
+  color: red;
 }
 body{
-  display: inline-block;
   background-image: url("/img/pic2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
