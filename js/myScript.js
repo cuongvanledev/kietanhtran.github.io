@@ -14,7 +14,7 @@
 //  x[myIndex-1].style.display = "block";
 //  setTimeout(carousel, 2000);
 //}
-const words = ["Hi, My name is Kiet.", "Nice to meet you!"];
+const words = ["Hi, My name is Kiet.", "Welcome to my site.", "Nice to meet you!"];
 let i = 0;
 let timer;
 
@@ -27,7 +27,7 @@ function typingEffect() {
 			deletingEffect();
 			return false;
 		};
-		timer = setTimeout(loopTyping, 250);
+		timer = setTimeout(loopTyping, 200);
 	};
 	loopTyping();
 };
