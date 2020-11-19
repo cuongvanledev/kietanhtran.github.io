@@ -43,6 +43,7 @@ body {
   padding-top: 30px;
   font-weight: 600;
   max-width: 67.5rem;
+  font-size: 150%;
 }
 
 .header__details {
