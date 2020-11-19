@@ -43,8 +43,8 @@ body {
   padding-top: 30px;
   font-weight: 600;
   max-width: 67.5rem;
-  font-size: 150%;
-  text-shadow: 2px 1px red;
+  font-size: 300%;
+  text-shadow: 1px 1px red;
 }
 
 .header__details {
