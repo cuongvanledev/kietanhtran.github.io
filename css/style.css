@@ -17,9 +17,9 @@ body {
 .userImage{
   float: left;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  display: inline;
+  width: 150px;
+  height: 150px;
+  display: flex;
 }
 
 .waviy {
