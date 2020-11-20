@@ -131,8 +131,7 @@ h4 {
   padding: 3rem;
 }
 .card:hover{
-  transform: scale(1.1);
-  background-color: azure;
+  background-color: cornsilk;
 }
 .card1 {
   border-color: hsl(180, 62%, 55%)
