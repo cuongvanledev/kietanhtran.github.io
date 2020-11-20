@@ -130,13 +130,12 @@ h4 {
   border-radius: 8px;
   padding: 3rem;
 }
-
-.card1 {
-  border-color: hsl(180, 62%, 55%);
+.card:hover{
+  transform: scale(1.1);
+  background-color: azure;
 }
-.heading:hover(){
-
-  transform: scale(1.5); 
+.card1 {
+  border-color: hsl(180, 62%, 55%)
 }
 
 .card2 {
