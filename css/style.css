@@ -128,7 +128,7 @@ h4 {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
   border-top: 6px solid;
   border-radius: 8px;
-  padding: 3rem;
+  padding: 2rem;
 }
 .card:hover{
   background-color: cornsilk;
