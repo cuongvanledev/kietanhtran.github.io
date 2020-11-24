@@ -62,6 +62,9 @@ function carousel() {
   var i;
   var x = document.getElementsByClassName("userImage");
   for (i = 0; i < x.length; i++) {
+    if (i == 0) {
+	    x[i].id = "demo"
+    }
     x[i].style.display = "none";
   }
   myIndex++;
@@ -69,6 +72,6 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 2000);
 }
-document.getElementsByClassName("card1")[0].onClick = function () {
+document.getElementById("demo")[0].onClick = function () {
 	location.href = "http://google.com.vn";
 }
